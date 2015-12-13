@@ -1,0 +1,4 @@
+Scenario: Choose a chef: @test1
+	Open Food Network main page
+	Select Chefs from header menu
+	Select first item from category Featured Chefs & Hosts
