@@ -11,7 +11,8 @@
 # which can be found on GitHub at dmchdev.                          #
 # I would greatly appreciate you getting in touch with me and       #
 # sending me the modifications, so that I can integrate them into   #
-# the original version and give you proper collaborator credit.     #
+# the original version and give you proper collaborator credit.
+# Forking this project is encouraged!
 # Enjoy testing!                                                    #
 ##################################################################### 
 
