@@ -1,6 +1,8 @@
 # dranik
 Dranik is a Python testing tool like Cucumber
 
+It is not only for Selenium. Being a code generator, Dranik allows testing of python code, as long as you format things properly. That said, it was designed during my work testing UI with Selenium WebDriver.
+
 Please see the scenarios.txt file and methods.py file for how to format your scenarios and methods. 
 
 ^x or ^y denotes a variable. Any number of variables is allowed. Make sure there are some non-variable words between variables. The test case--method matching engine will insert whatever it determines to be the appropriate variable. Please note that all variables are passed in as string values, so be sure to perform any necessary type conversions in your methods. 
