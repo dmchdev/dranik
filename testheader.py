@@ -2,6 +2,7 @@
 Before:
 from selenium import webdriver
 driver = webdriver.Chrome()
+#driver = webdriver.Firefox()
 driver.implicitly_wait(20)
 def handleAlert():
 	try:
