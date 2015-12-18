@@ -5,6 +5,8 @@ It is not only for Selenium. Being a code generator, Dranik allows testing of py
 
 Please see the scenarios.txt file and methods.py file for how to format your scenarios and methods. Please note that, although the name of the scenario file is optional (it can be 'myscen' instead of 'scenarios'), as well as its extension (as long as it is essentially a plain text file like .txt or .py), the methods file MUST be called 'methods.py'. If you wish to modify that name, you would need to modify in the the program's source code itself. This is discouraged for the sake of uniformity. 
 
+You will require chromedriver.exe to be present in any directory and pointed to in your PATH environment varialble, to be able to invoke an instance of Chrome browser in the samples provided, as well as Chrome browser itself. For Firefox users, modify testheader.py to activate the Firefox. Uncomment Firefox call and comment out Chrome call.
+
 ^x or ^y denotes a variable. Any number of variables is allowed. Make sure there are some non-variable words between variables. The test case--method matching engine will insert whatever it determines to be the appropriate variable. Please note that all variables are passed in as string values, so be sure to perform any necessary type conversions in your methods. 
 
 If you wish to create a log, specify option 'makelog' (without quotes) when you launch Dranik.
