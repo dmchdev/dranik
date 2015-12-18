@@ -59,9 +59,8 @@
 
 
 """This program is designed to mimic to some degree the behavior of Cucumber and Lettuce testing tools. It is
-definitely a simplified version of those tools. It does not include the Gherkin language parser, as it is not
-really necessary for majority of web application tests. It uses the 'just tell the computer what to do' approach
-step-by-step. You simply write your scenarios in proper format and Dranik will generate and execute Python code,
+definitely a simplified version of those tools. It does not include the Gherkin language parser at this time. 
+It uses the 'just tell the computer what to do' approach step-by-step. You simply write your scenarios in proper format and Dranik will generate and execute Python code,
 which will run your tests and provide output with tracebacks. Dranik also makes use of Python's ctypes module to
 provide Windows users with colored output--UNIX-green text, yellow tracebacks, red errors, blue lines. 
 Beside running tests, the user gets a summary of the test run--how many tests failed and passed and specific names
