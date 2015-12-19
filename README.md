@@ -3,6 +3,14 @@ Dranik is a Python testing tool like Cucumber
 
 It is not only for Selenium. Being a code generator, Dranik allows testing of python code, as long as you format things properly. That said, it was designed during my work testing UI with Selenium WebDriver.
 
+HOW TO UNIT TEST WITH DRANIK:
+
+1. Place the library of methods to be tested and all its dependencies in the same directory as dranik.py (or copy dranik.py to your development directory).
+2. Using 'import' statement, incorporate your library into the dranik's header.py (just like you import selenium)
+3. Create methods that call your desired functions and compare them against desired assertions
+4. Create text scenario that calls these methods
+5. Execute dranik.py with your new scenario file. It should compose a python script and run it, unless I missed something, in which case please write me with detailed description of the situation and sample of the code you were trying to run, and any recommendations on how to fix dranik to avoid this in the future. 
+
 Please see the scenarios.txt file and methods.py file for how to format your scenarios and methods. Please note that, although the name of the scenario file is optional (it can be 'myscen' instead of 'scenarios'), as well as its extension (as long as it is essentially a plain text file like .txt or .py), the methods file MUST be called 'methods.py'. If you wish to modify that name, you would need to modify in the the program's source code itself. This is discouraged for the sake of uniformity. 
 
 You will require chromedriver.exe to be present in any directory and pointed to in your PATH environment varialble, to be able to invoke an instance of Chrome browser in the samples provided, as well as Chrome browser itself. For Firefox users, modify testheader.py to activate the Firefox. Uncomment Firefox call and comment out Chrome call.
