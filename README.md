@@ -6,7 +6,7 @@ It is not only for Selenium. Being a code generator, Dranik allows testing of py
 HOW TO UNIT TEST WITH DRANIK:
 
 1. Place the library of methods to be tested and all its dependencies in the same directory as dranik.py (or copy dranik.py to your development directory).
-2. Using 'import' statement, incorporate your library into the dranik's header.py (just like you import selenium)
+2. Using 'import' statement, incorporate your library into the dranik's testheader.py (just like you import selenium)
 3. Create methods that call your desired functions and compare them against desired assertions
 4. Create text scenario that calls these methods
 5. Execute dranik.py with your new scenario file. It should compose a python script and run it, unless I missed something, in which case please write me with detailed description of the situation and sample of the code you were trying to run, and any recommendations on how to fix dranik to avoid this in the future. 
