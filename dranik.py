@@ -166,7 +166,7 @@ class testSuite():
 		self.successCount=0
 		self.failedScenarios=[]
 		self.headerfooter = self.parseHeader(self.header)
-		self.logfilename='sessionlog-'+time.strftime('%d%b%Y-%H-%M-%S')+'.log' #day, month name, year, hour, minutes, seconds
+		self.logfilename='sessionlog-'+time.strftime('%Y-%m-%d-%H-%M-%S')+'.log' #year, month number, day of month, hour, minute, second
 		if logFlag ==1:
 			self.log=open(self.logfilename, 'a')
 
